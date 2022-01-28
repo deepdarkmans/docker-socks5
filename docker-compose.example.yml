@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  proxy1:
+    image: socks5
+    container_name: proxy1
+    restart: always
+    ports:
+      - "3128:1080"
