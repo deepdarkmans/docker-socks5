@@ -1,7 +1,7 @@
 # Docker SOCKS5 Proxy
 
 Данный репозиторий позволит с минимальными затратами запустить свой собственный socks5 proxy-сервер.
-
+[Dante proxy server](https://www.inet.no/dante/)
 ## Quickstart
 
 Ниже приведена инструкция по подъему SOCKS5 прокси. Единственное требование - наличие [белого](https://help.keenetic.net/hc/ru/articles/213965789-В-чем-отличие-белого-и-серого-IP-адреса-) IP. Если у Вас нет личного сервера, то внизу страницы приведена инструкция по настройке бесплатного сервера на AWS. Вы также можете использовать любого другого провайдера облачных серверов.
@@ -17,7 +17,7 @@
 2. Склонируйте данный репозиторий
 
    ```bash
-   git clone https://github.com/elejke/docker-socks5.git
+   git clone https://github.com/deepdarkmans/docker-socks5.git
    cd docker-socks5
    ```
    
